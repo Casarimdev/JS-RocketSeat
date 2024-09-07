@@ -1,4 +1,25 @@
-alert(impPar(20))
+// O JSDoc é um padrão para incorporar documentação no código-fonte e partir desses comentários
+
+/**
+ * 
+ * @param {Number} num number to check
+ * @returns 
+ */
+
+/**
+ * 
+ * @param {String} email user email
+ * @param {String} password more than 8 characters to be approved
+ * @returns {Number} User id
+ */
+
+
+function sigIn(email, password){
+    return 7
+}
+
+
+
 
 function impPar(num){
     try {
@@ -27,3 +48,5 @@ function impPar(num){
 let userNum = prompt('Insert a number: ')
 
 alert(impPar(userNum))
+
+
